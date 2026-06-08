@@ -127,13 +127,3 @@ Run directly with tsx (no build step):
 npx tsx src/index.ts --domain zoho.com
 ```
 
-## Notes for Live Demo
-
-1. Ensure your Brevo sender email is verified before sending.
-2. Tune `OCEAN_MAX_COMPANIES` to control Ocean credit usage during demos.
-3. Prospeo enrich costs 1 credit per verified email found — start with a low `OCEAN_MAX_COMPANIES` value.
-4. Emails are only sent after you confirm `Y` at the safety checkpoint.
-
-## License
-
-MIT
